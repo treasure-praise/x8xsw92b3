@@ -68,7 +68,9 @@ function App() {
               />
             </div>
             <div className="grid gap-2">
-              <label htmlFor="quantity">Quantity</label>
+              <label className="font-semibold" htmlFor="quantity">
+                Quantity
+              </label>
               <input
                 className="form-input px-4 py-3 rounded-md"
                 id="quantity"
@@ -79,7 +81,9 @@ function App() {
               />
             </div>
             <div className="grid gap-2">
-              <label htmlFor="price">Price</label>
+              <label className="font-semibold" htmlFor="price">
+                Price
+              </label>
               <input
                 className="form-input px-4 py-3 rounded-md"
                 id="price"
