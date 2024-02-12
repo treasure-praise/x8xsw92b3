@@ -28,7 +28,17 @@ function App() {
       quantity.trim() === "" ||
       price.trim() === ""
     ) {
-      // You may add some error handling or display a message for incomplete form
+      alert("Please fill out all fields");
+      return;
+    }
+
+    if (isNaN(quantity) || quantity <= 0) {
+      alert("Quantity must be a positive number");
+      return;
+    }
+
+    if (isNaN(price) || price <= 0) {
+      alert("Price must be a positive number");
       return;
     }
 
